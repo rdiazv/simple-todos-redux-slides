@@ -1,0 +1,5 @@
+$('form').on('submit', function() {
+	this.model.save({
+		name: $('#name').val()
+	});
+});

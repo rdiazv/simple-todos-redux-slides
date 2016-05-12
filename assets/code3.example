@@ -1,0 +1,1 @@
+this.model.on('change', this.render);
